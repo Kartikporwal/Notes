@@ -1,4 +1,4 @@
-📝 Notes App (EJS)
+📝 Notes App 
 
 A simple Notes / Task Management Application built using Node.js, Express.js, and EJS, allowing users to create, edit, and manage tasks efficiently.
 
