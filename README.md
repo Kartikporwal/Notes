@@ -24,14 +24,3 @@ Frontend: HTML, CSS
 
 Tools: Git, GitHub
 
-📂 Project Structure
-
-notes-app/
-│── views/
-│   ├── index.ejs
-│   ├── edit.ejs
-│── public/
-│   └── style.css
-│── app.js
-│── package.json
-│── README.md
