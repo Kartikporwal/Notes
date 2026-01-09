@@ -7,13 +7,21 @@
      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    <div class="main w-full min-h-screen bg-zinc-900 text-white p-10">
-    <a class="text-blue-500 inline-block mb-10" href="/">Go Back to Home</a>
-    <h1 class="text-3xl tracking-tighter">Edit Filename</h1>
+    <div class="main w-full min-h-screen bg-white-500 text-white p-5">
+     <nav class="bg-blue-200 w-full h-20">
+        <h1 class="text-5xl text-center text-black font-semibold">&#128221;My Notes </h1>
+    </nav>
+    <h1 class="text-black text-2xl text-center font-semibold mt-5 bg-blue-500">Edit Task</h1>
+    <div class="flex gap-3 items-center mt-10 px-120">
+        <div class="task w-120 h-100 px-10 py-4 rounded-md mt-5 bg-zinc-800">
+            <h1 class="text-2xl text-center font-semibold">Edit Filename</h1>
        <form class="mt-5"action="/edit" method="post">
-            <input class="block w-1/4 px-5 py-2 outline-none rounded-md text-zinc-600 bg-zinc-800"type="text" placeholder="Previous Name" name="previous" value="<%= filename %>">
-            <input class="block w-1/4 px-5 py-2 mt-2 outline-none rounded-md bg-zinc-800"type="text" placeholder="New Name" name="new">
-            <input class="mt-2 px-5 py-2 rounded-md text-black bg-yellow-600"type="submit" value="Update Name">
+            <input class="block mt-20 text-center w-100 px-5 py-2 rounded-md"type="text" placeholder="Previous Name" name="previous" value="<%= filename %>">
+            <input class="block w-100 text-center px-5 py-2 mt-5 rounded-md"type="text" placeholder="New Name" name="new">
+            <input class="bg-yellow-600 text-black px-5 mt-10 py-3"type="submit" value="Update Name">
         </form>
-</body>
+    </div>
+        </div>
+        </div>
+     </body>
 </html>

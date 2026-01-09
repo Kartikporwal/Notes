@@ -1,0 +1,5 @@
+ paragraph is a self-contained unit of writing, usually several sentences long, that develops a single main idea or topic, organized with a topic sentence, supporting details, and often a concluding sentence, helping to structure longer texts and guide the reader. Paragraphs start on a new line and visually group related thoughts, making written work easier to read and understand by breaking down complex subjects into digestible parts. 
+Key Components
+Topic Sentence: Introduces the main idea of the paragraph.
+Supporting Sentences: Provide details, examples, explanations, or evidence for the topic sentence.
+Concluding Sentence: Summarizes the main point or transitions to the next paragraph. 

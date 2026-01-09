@@ -7,22 +7,25 @@
      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    <div class="main w-full min-h-screen bg-zinc-900">
-    <div class="form p-10 text-white">
+    <div class="main w-full min-h-screen bg-white-500 p-5">
+    <nav class="bg-blue-200 w-full h-20">
+        <h1 class="text-5xl text-center font-semibold">&#128221;My Notes</h1>
+    </nav>
+    <div class="form p-5 text-white">
         <form action="/create" method="post">
-            <input class="block w-full px-5 py-2 outline-none rounded-md bg-zinc-800"type="text" placeholder="Title goes here." name="title">
-            <textarea class="block w-full mt-2 px-5 py-2 resize-none outline-none rounded-md bg-zinc-800"placeholder="Write your task details." name="details"></textarea>
+            <input class="block w-full  px-5 py-2 outline-none rounded-md bg-zinc-800"type="text" placeholder="Title goes here." name="title">
+            <textarea class="block w-full h-60 mt-2 px-5 py-2 resize-none outline-none rounded-md bg-zinc-800"placeholder="Write your task details." name="details"></textarea>
             <input class="mt-2 px-5 py-2 rounded-md bg-blue-600"type="submit" value="Create Task">
         </form>
     </div>
-    <div class="tasks flex gap-2.5 flex-wrap p-10">
+    <div class="tasks flex gap-2.5 flex-wrap p-5">
         <% if(files.length > 0) { %>
         <% files.forEach(function(val) { %>
              <div class="task min-w-72 px-3 py-4 rounded-md bg-zinc-800">
             <h1 class="text-white text-2xl tracking-tighter"><%= val %></h1>
             <div class="flex w-full justify-between mt-3 items-center">
             <a class="text-blue-500 inline-block "href="/file/<%= val %>">Read More.</a>
-            <a class="text-zinc-600"href="/edit/<%= val %>">edit filename</a>
+            <a class="text-zinc-600"href="/edit/<%= val %>">Edit Filename</a>
             </div>
         </div>
             <% }) %>
