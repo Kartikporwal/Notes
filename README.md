@@ -2,25 +2,23 @@
 
 A simple Notes / Task Management Application built using Node.js, Express.js, and EJS, allowing users to create, edit, and manage tasks efficiently.
 
-🚀 Features
+**🚀 Features**
 
-➕ Add Task – Create new notes/tasks
+1.➕ Add Task – Create new notes/tasks
 
-✏️ Edit Task – Update existing task or filename
+2.✏️ Edit Task – Update existing task or filename
 
-🗑️ Delete Task (if added)
+3.🗑️ Delete Task (if added)
 
-📄 EJS Templating – Dynamic rendering of pages
+4.📄 EJS Templating – Dynamic rendering of pages
 
-⚡ Fast & Lightweight – Minimal and clean UI
+5.⚡ Fast & Lightweight – Minimal and clean UI
 
 🛠️ Tech Stack
 
 Backend: Node.js, Express.js
 
-Templating Engine: EJS
-
-Frontend: HTML, CSS
+Templating Engine: EJS, Tailwind CSS
 
 Tools: Git, GitHub
 
