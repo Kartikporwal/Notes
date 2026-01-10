@@ -24,3 +24,12 @@ Frontend: HTML, CSS
 
 Tools: Git, GitHub
 
+📸 Screenshots
+
+<img width="1897" height="903" alt="image" src="https://github.com/user-attachments/assets/73d4a45c-283f-49ab-835f-9aeeba9288a5" />
+
+<img width="1902" height="906" alt="image" src="https://github.com/user-attachments/assets/98bb5bd3-ec39-4764-bb5f-f3aaf499f4db" />
+
+
+
+
