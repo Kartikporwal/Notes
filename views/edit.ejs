@@ -15,10 +15,10 @@
     <div class="flex gap-3 items-center mt-10 px-120">
         <div class="task w-120 h-100 px-10 py-4 rounded-md mt-5 bg-zinc-800">
             <h1 class="text-2xl text-center font-semibold">Edit Filename</h1>
-       <form class="mt-5"action="/edit" method="post">
+       <form class="mt-5  flex flex-col items-center"action="/edit" method="post" >
             <input class="block mt-20 text-center w-100 px-5 py-2 rounded-md"type="text" placeholder="Previous Name" name="previous" value="<%= filename %>">
             <input class="block w-100 text-center px-5 py-2 mt-5 rounded-md"type="text" placeholder="New Name" name="new">
-            <input class="bg-yellow-600 text-black px-5 mt-10 py-3"type="submit" value="Update Name">
+            <input class="bg-yellow-600 text-black px-5 mt-10 py-3 w-fit rounded"type="submit" value="Update Name">
         </form>
     </div>
         </div>
